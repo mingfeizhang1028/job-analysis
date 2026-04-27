@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pycache_test/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit / local config
+.streamlit/secrets.toml
+
+# Local assistant/editor state
+.claude/
+
+# Runtime caches and generated artifacts
+data/app_cache/
+data/llm_cache/
+data/llm_runs/
+outputs/
+*.log
+
+# Candidate private knowledge base
+data/candidate_kb/raw/
+data/candidate_kb/parsed/
+data/candidate_kb/vector_store.json
+data/candidate_kb/document_index.json
+
+# Local capture logs / transient files
+data/boss_jobs/*.log
+
+# Archives and temporary exports
+*.zip
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
